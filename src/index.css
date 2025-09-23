@@ -1,0 +1,288 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fdf6f3;
+}
+
+
+
+header .logo {
+    
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    font-style:italic;
+    color: #8e2430;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    word-spacing: 1rem;
+
+
+
+}
+
+
+
+header {
+    padding: 0;
+    margin: 0;
+    background: url('images/hero.png') no-repeat center center/cover;
+   
+}
+
+header .nav-links {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bb5164; /* Transparent red background */
+    padding: 1rem 2rem;
+    width: 99vw; /* Full viewport width */
+    box-sizing: border-box; /* Ensure padding doesn't exceed the viewport width */
+   
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+header .nav-links a:hover {
+    background-color: rgba(215, 38, 38, 0.9); /* Slightly darker red on hover */
+}
+
+
+
+.hero {
+    text-align: center;
+   
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+    
+    color:#8e2430;
+}
+
+.hero p{
+    font-size: 23px;
+}
+
+
+
+.hero button {
+    background-color: #8e2430;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #a3374a;
+}
+
+.about, .gallery, .services, .contact {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about img {
+    max-width: 50%;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-left: 20rem;
+    align-items: center;
+}
+
+.about p{
+    font-size: 20px;
+}
+/* Gallery Slider */
+.gallery .venue-slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery .slide {
+    flex: 0 0 auto;
+    width: 300px;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.gallery .slide img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.gallery .info-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #a3374a;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+    z-index: 2;
+}
+/* .services {
+background-color: #d87d8e;
+} */
+.services .service {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.services .service img {
+    width: 40%;
+    border-radius: 8px;
+}
+
+.services .service.left {
+    flex-direction: row;
+}
+
+.services .service.right {
+    flex-direction: row-reverse;
+}
+
+.services .service div {
+    width: 60%;
+    padding: 1rem;
+}
+
+.service p{
+    font-size:20px ;
+    font-style:italic ;
+    
+}
+
+/* footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f5c2c2;
+    color: #8e2430;
+    margin-top: 2rem;
+} */
+
+
+ /* Booking Form  */
+.booking {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF5F7;
+    color: #4A4A4A;
+}
+
+.booking form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.booking input, .booking textarea, .booking button,.booking select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #FF85A2;
+    border-radius: 5px;
+    color: #4A4A4A;
+}
+
+.booking button {
+    background-color: #FF85A2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    height: 100px;
+}
+
+
+/* Contact Section */
+.contact {
+    background-color: #f4f4f4; /* Light gray background for a soft look */
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 3px solid#a3374a;; /* Top border for separation */
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact p a {
+    color: #007bff; /* Blue for links */
+    text-decoration: none;
+}
+
+.contact p a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #a3374a;;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p::before {
+    content: "© "; /* Adding the copyright symbol for accessibility */
+}
+
+footer p a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p a:hover {
+    color: #007bff; /* Blue highlight for links on hover */
+} 
