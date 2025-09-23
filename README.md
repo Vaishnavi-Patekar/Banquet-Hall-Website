@@ -1,17 +1,41 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌸 Vinaya's Banquet Hall Booking Website 🌸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack **MERN (MongoDB, Express.js, React.js, Node.js)** application for managing banquet hall reservations. Users can book available slots, receive confirmations, and view all reservations through a simple dashboard.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Click here to view the live website](https://vaishnavi-patekar.github.io/Banquet-Hall-Booking-Website/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Banquet-Hall-Website
-A full-stack MERN application (MongoDB, Express.js, React.js, Node.js) with a dynamic booking form, RESTful API integration, and dashboard for managing reservations efficiently.
->>>>>>> f55e07aac553cbbbd3bf1ca82325884580e6efc9
+
+## Features
+
+- 🎯 **Landing Page** with navigation and call-to-action  
+- 🏢 **Venue Gallery** slider with interactive info popups  
+- 🛎️ **Service Section** showcasing event types (weddings, birthdays, corporate, etc.)  
+- 📅 **Booking Page** to fill out event details  
+- 📱 Fully **responsive design** for mobile, tablet, and desktop  
+- 📞 **Contact Section** with basic info  
+- RESTful API integration between frontend and backend  
+
+---
+
+## Tech Stack
+
+- **Frontend:** React.js, React Router, Axios, HTML5, CSS3, JavaScript (ES6+)  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB, Mongoose  
+- **Tools:** VS Code, npm, Vite / Create React App, MongoDB Compass  
+
+---
+
+## How it Works
+
+1. Users fill out the booking form on the frontend.  
+2. Form data is sent via Axios to Express APIs running on Node.js.  
+3. Data is stored in MongoDB using Mongoose models.  
+
+
+---
+
