@@ -14,25 +14,25 @@ function App() {
 
   return (
     <>
-      <header>
-        <nav>
-          <div className="logo">VINAYA BANQUET</div>
-          <ul className="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#venues">Venues</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="/booking">Book Now</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+     <header>
+  <nav className="navbar">
+    <div className="logo">VINAYA BANQUET</div>
+    <ul className="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#venues">Venues</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="/booking">Book Now</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-        <section id="home" className="hero">
-          <h1>Welcome to Vinaya Banquet</h1>
-          <p>Celebrate your special moments with us!</p>
-          <button onClick={() => (window.location.href = "/booking")}>Book Now</button>
-        </section>
-      </header>
+  <section id="home" className="hero">
+    <h1>Welcome to Vinaya Banquet</h1>
+    <p>Celebrate your special moments with us!</p>
+    <button onClick={() => (window.location.href = "/booking")}>Book Now</button>
+  </section>
+</header>
 
       <section id="about" className="about">
         <h2>About Us</h2>
@@ -48,14 +48,23 @@ function App() {
   <h2>Venues</h2>
   <div className="venue-slider">
     {venues.map((venue, index) => (
+      // <div
+      //   className="slide"
+      //   key={index}
+      //   onClick={() =>
+      //     setActiveSlide(activeSlide === index ? null : index)
+      //   }
+      //   style={{ cursor: "pointer", position: "relative" }}
+      // >
       <div
-        className="slide"
-        key={index}
-        onClick={() =>
-          setActiveSlide(activeSlide === index ? null : index)
-        }
-        style={{ cursor: "pointer", position: "relative" }}
-      >
+  className="slide"
+  key={index}
+  onClick={() =>
+    setActiveSlide(activeSlide === index ? null : index)
+  }
+  style={{ cursor: "pointer", position: "relative" }}
+>
+
         <img src={venue.img} alt={`Venue ${index + 1}`} />
 
         {activeSlide === index && <div className="info-popup">{venue.info}</div>}
@@ -119,7 +128,7 @@ function App() {
       </section>
 
       <footer>
-        <p>&copy; 2025 Vinaya Banquet. All rights reserved.</p>
+        <p> 2025 Vinaya Banquet 🤍 All rights reserved .</p>
       </footer>
     </>
   );

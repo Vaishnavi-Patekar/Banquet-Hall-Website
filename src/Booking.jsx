@@ -101,7 +101,7 @@ function Booking() {
       </section>
 
       <footer>
-        <p>&copy; 2025 Vinaya Banquet. All rights reserved.</p>
+        <p> 2025 Vinaya Banquet 🤍 All rights reserved .</p>
       </footer>
     </>
   );
