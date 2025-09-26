@@ -4,11 +4,6 @@ A full-stack **MERN (MongoDB, Express.js, React.js, Node.js)** application for m
 
 ---
 
-## 🔗 Live Demo
-
-👉 [Click here to view the live website](https://vaishnavi-patekar.github.io/Banquet-Hall-Booking-Website/)
-
-
 ## Features
 
 - 🎯 **Landing Page** with navigation and call-to-action  
