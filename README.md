@@ -1,4 +1,4 @@
-# 🌸 Vinaya's Banquet Hall Booking Website 🌸
+# 🌸 Vinaya Banquet Hall Booking Website 🌸
 
 A full-stack **MERN (MongoDB, Express.js, React.js, Node.js)** application for managing banquet hall reservations. Users can book available slots, receive confirmations, and view all reservations through a simple dashboard.
 
